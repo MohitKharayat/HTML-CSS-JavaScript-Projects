@@ -1,0 +1,44 @@
+body{
+   background: linear-gradient(to right, #be93c5, #7bc6cc);
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: monospace;
+}
+
+.container{
+    background-color: rgba(255,255,255,.3);
+    padding: 20px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .3);
+    border-radius: 15px;
+    width: 500px;
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.btn{
+    font-size: 5rem;
+    border: none;
+    background: rgba(255, 255, 255, .4);
+    border-radius: 10px;
+    padding: 15px;
+    filter: grayscale();
+    transition: filter .2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover{
+    filter: grayscale(0);
+}
+
+.emoji-name{
+    font-weight: 600;
+    font-size: large;
+    color: darkblue;
+}
